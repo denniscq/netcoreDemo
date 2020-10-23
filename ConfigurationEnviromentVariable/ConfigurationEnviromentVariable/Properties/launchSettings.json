@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "ConfigurationEnviromentVariable": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "key1": "value1",
+        "key2": "value2",
+        "section1": "sectionvalue1",
+        "section2__key1": "sectionvalue2",
+        "dennis_key1": "dennis value1"
+      }
+    }
+  }
+}

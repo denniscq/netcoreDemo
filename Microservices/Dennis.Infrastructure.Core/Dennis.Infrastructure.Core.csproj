@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNetCore.CAP" Version="3.0.4" />
+    <PackageReference Include="DotNetCore.CAP.MySql" Version="3.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.5" />
+    
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dennis.Domain.Abstractions\Dennis.Domain.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
